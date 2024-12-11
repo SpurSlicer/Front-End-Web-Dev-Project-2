@@ -1,0 +1,25 @@
+.messages {
+    width: 100%;
+    height: calc(100% - 50px);
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: lightblue;
+    color: inherit;
+}
+.messages .message {
+    width: inherit;
+    height: fit-content;
+}
+.send_message {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: inherit;
+    background-color: green;
+}
+.send_message input {
+    height: fit-content;
+    width: 90%;
+}

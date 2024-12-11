@@ -1,0 +1,39 @@
+.welcome {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(6, 6, 79, 0.908);
+    width: 100%;
+    display  : flex;
+    flex-direction: column;
+}
+
+.input {
+    height: 30px;
+    width: 200px;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 3px solid rgb(89, 81, 81);
+    background-color: transparent;
+    color: white;
+}
+
+.button {
+    height: 30px;
+    width: 100px;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 3px solid rgb(89, 81, 81);
+    background-color: whitesmoke;
+    color: black;
+}
+
+h1 {
+    color: white;
+    padding-bottom: 5px;
+}
+p {
+    color: white;
+}

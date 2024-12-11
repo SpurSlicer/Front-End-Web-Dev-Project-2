@@ -1,0 +1,32 @@
+.categories-list { 
+    background-color: rgb(70, 200, 243);
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.category-item {
+    background-color: lightblue;
+    padding: 10px;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin: 10px;   
+}
+
+.cat-title {
+    color:black;
+    font-size: medium;
+    font-weight: bold;
+    background-color: lightblue;
+    padding: 5px;
+    border: 3px solid black; 
+    border-radius: 10px;
+}
+
+.channel-item {
+    background-color: rgb(115, 116, 117);
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 10px;   
+}
